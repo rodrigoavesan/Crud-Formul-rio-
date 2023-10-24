@@ -11,8 +11,6 @@ body{
 
 h1{
     text-align:center;
-    background: #CCC;
-    
 }
 
 form{
@@ -35,9 +33,7 @@ input, select{
     font-size: 1rem;
 }
 
-
-.buttonRegister {
-    display: flex;
+button {
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -45,42 +41,12 @@ input, select{
     color: #FFF;
     cursor: pointer;
     font-size: 1rem;
+    margin-top: 66px;
+    transition: background-color 0.3s; 
 }
 
-.buttonRegister button {
-    border: none;
-    background-color: #333;
-    
+button:hover {
+    background-color: #555; 
 }
 
-.buttonRegister button:hover{
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #333;
-    color: #FFF;
-    cursor: pointer;
-    font-size: 1rem;
-}
-
-
-/*button{ 
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #333;
-    color: #FFF;
-    cursor: pointer;
-    font-size: 1rem;
-}
-
-button:hover{ 
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #333;
-    color: #FFF;
-    cursor: pointer;
-    font-size: 1rem;
-} */
 
